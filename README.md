@@ -9,5 +9,5 @@ A R package for wrapping GMPE functions from Norman Abrahamson's fortran [HAZ](h
 
 ```{r}
 install.packages("devtools")
-devtools::install_github("chelseahuei/GMPEhazModified")
+devtools::install_github("chelseahuei/GMPEmod")
 ```
