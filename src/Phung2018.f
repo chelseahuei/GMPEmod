@@ -511,7 +511,7 @@ C Deviation from ln(Vs30) scaling: bedrock depth (Z1) effect.
         endif
   
 c Sa on soil condition
-        lnpsa = lnpsa_ref + term14 + term15 + term16+5
+        lnpsa = lnpsa_ref + term14 + term15 + term16
         sa = exp(lnpsa_ref + term14 + term15 + term16)
         psa = psa_ref * exp(term14 + term15 + term16)
 
